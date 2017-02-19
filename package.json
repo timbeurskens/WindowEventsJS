@@ -4,7 +4,7 @@
   "description": "Easy wrapper for window events",
   "main": "dist/js/windowevents.js",
   "scripts": {
-    "test": "standard"
+    "test": "mocha --ui tdd"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,9 @@
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-uglify": "^2.1.0",
+    "jsdom": "^9.11.0",
+    "jsdom-global": "^2.1.1",
+    "mocha": "^3.2.0",
     "standard": "^8.6.0"
   }
 }
