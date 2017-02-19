@@ -1,0 +1,23 @@
+{
+  "name": "WindowEventsJS",
+  "homepage": "https://github.com/timbeurskens/WindowEventsJS",
+  "authors": [
+    "Tim Beurskens <timbeurskens.97@gmail.com>"
+  ],
+  "description": "Easy wrapper for window events",
+  "main": "dist/js/windowevents.js",
+  "keywords": [
+    "window",
+    "events",
+    "listener"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

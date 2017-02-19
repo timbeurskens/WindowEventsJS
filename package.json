@@ -1,0 +1,30 @@
+{
+  "name": "windowevents",
+  "version": "1.0.0",
+  "description": "Easy wrapper for window events",
+  "main": "dist/js/windowevents.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbeurskens/WindowEventsJS.git"
+  },
+  "keywords": [
+    "events",
+    "listener",
+    "window"
+  ],
+  "author": "Tim Beurskens",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/timbeurskens/WindowEventsJS/issues"
+  },
+  "homepage": "https://github.com/timbeurskens/WindowEventsJS#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "standard": "^8.6.0"
+  }
+}
