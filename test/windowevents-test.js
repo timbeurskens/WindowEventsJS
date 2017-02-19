@@ -4,26 +4,6 @@
 var assert = require('assert');
 var windowEvents = require('../src/windowevents');
 
-suite('Array', function () {
-    setup(function () {
-
-    });
-
-    suite('#indexOf', function () {
-        test('should return -1 when not present', function () {
-            assert.equal(-1, [1, 2, 3].indexOf(4));
-        });
-        test('should return a value >= 0 when present', function () {
-            var result = [1, 2, 3, 4].indexOf(4);
-            assert(result >= 0);
-        });
-        test('should return the first index of a present instance', function () {
-            assert.equal(1, [1, 2, 1, 2].indexOf(2));
-            assert.equal(0, [1, 2, 1, 2].indexOf(1));
-        });
-    });
-});
-
 suite("WindowEvents", function () {
     setup(function () {
 
