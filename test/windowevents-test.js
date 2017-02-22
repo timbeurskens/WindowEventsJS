@@ -45,6 +45,34 @@ suite("WindowEvents", function () {
             windowEvents.send("test", null);
         });
 
+        test('should only fire the right event', function (done) {
+            windowEvents.clearListeners();
+
+            windowEvents.listen("test1", function () {
+                done();
+            });
+
+            windowEvents.listen("test2", function () {
+                throw new Error("fail");
+            });
+
+            windowEvents.send("test1", null);
+        });
+
+        test('should only fire the right event', function (done) {
+            windowEvents.clearListeners();
+
+            windowEvents.listen("test1", function () {
+                throw new Error("fail");
+            });
+
+            windowEvents.listen("test2", function () {
+                done();
+            });
+
+            windowEvents.send("test2", null);
+        });
+
         test('should return false when adding duplicate listeners', function () {
             windowEvents.clearListeners();
             var listener = function () {
