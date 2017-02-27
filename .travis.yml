@@ -11,5 +11,7 @@ deploy:
   api_key:
     secure: EDUFffC6yUfPr3yMHPXJkZWDy277eg2ITG/Wso/L02RzRqzqqK5P8Fc2TdCUG3me/w4/3lNpeKrBKm0GDpaKN9C6xtdGuNB+1VrjsWD4ERDxF+J9+mx1yDw05hRAYG+zFLlUc7cRCViK/gSehyRDKdA3QmfYpYk/NVE9iwGLJQk1P33/GZ6cDEK+TWAfkool0hr2OTTcnSsv/fmkHQxsAyAY+n3flp7n89tznUGqygWNrk59KV9gs8hHkdZpJi7a9E9vXGpdhbqzQLjU1ZHg3XhhcpFjqRYMi9ZpSHHJrpuy8qd1UCp8NJsQ8tW/3CxA0CIAa2q5O0mMDhMoa6yKGchjH/PSbtXq5uDziIwvnczNis9G32fnwwsCLZTSFORQ1YBKdqU8Y/xKZ9EOSG7XK9t6+kqJiOl9kStVhShGJ2PE5HHiCZAwbkppzarbQLpzBndJjbuWSrFa4SL+ZEsowleV6HtgSRvwt8G1kFEGAe7OGSzXVdhtdyZuzLDNguTSwta1AClxCqd2Z6PeGqCt+56nIPH52VzikojBZYeJkXKrnTYn44ehSlHkeyt7ZKArM39nl42sQ4F03SYuPcTcmgDG+ZoYUPPBzVqsfud2K4KVQxxDEU09YB7dcfInpy2bmmNch8ZPGDFBf6p9dErFgt/IcffeeOVn89cQIg7udjU=
   file: "/dist/js/windowevents.min.js"
+  overwrite: true
+  skip_cleanup: true
   on:
-    repo: timbeurskens/WindowEventsJS
+    tags: true
