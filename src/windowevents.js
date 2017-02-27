@@ -1,5 +1,5 @@
 /**
- * Window-Events v1.0.2
+ * Window-Events v1.0.3
  * Easy wrapper for the window.postMessage functionality.
  */
 
