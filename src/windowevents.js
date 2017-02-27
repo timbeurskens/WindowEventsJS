@@ -1,3 +1,8 @@
+/**
+ * Window-Events v1.0.2
+ * Easy wrapper for the window.postMessage functionality.
+ */
+
 "use strict";
 
 var eventListeners = {};
